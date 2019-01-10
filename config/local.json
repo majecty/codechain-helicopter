@@ -1,0 +1,18 @@
+{
+    "accounts_url": "https://husky.codechain.io/explorer/api/accounts" ,
+    "payer": {
+      "payer" : "tccq9h7vnl68frvqapzv3tujrxtxtwqdnxw6yamrrgd",
+      "passphrase" : "helicopter"
+    },
+    "exclude": [],
+    "oil": {
+      "owner": "tcaqyqcshpke8q2f09ktdnls28pfnkxx3mgp83q45rvu3",
+      "passphrase" : "helicopter",
+      "tx" : "0x608a8a46a3e66434d21a1a9da019e8a774cf8590a0d6258d860ba0a9e1d09519"
+    },
+    "network_id": "tc",
+    "rpc_url" : "http://localhost:8080",
+    "drop_interval": 3,
+    "reward": 1
+  }
+  

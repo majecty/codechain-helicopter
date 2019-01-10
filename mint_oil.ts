@@ -34,9 +34,8 @@ async function main() {
     const seq = await calculateSeq(sdk, payer);
 
     const keyStore = await sdk.key.createLocalKeyStore();
-    await sendTransaction(sdk, payer, payerPassphrase, keyStore, seq, mintOilTx);
-
-    console.log(`oil: ${mintOilTx.hash().toEncodeObject()}`);
+    const hash = await sendTransaction(sdk, payer, payerPassphrase, keyStore, seq, mintOilTx);
+    console.log(`oil: ${hash.toEncodeObject()}`);
 }
 
 main()
